@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Section from '@/components/Section';
@@ -7,10 +6,10 @@ import SkillBar from '@/components/SkillBar';
 import ProjectCard from '@/components/ProjectCard';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
-import { Download, Briefcase, GraduationCap, Award, Code, Languages, Heart, Mail, Linkedin, Github } from 'lucide-react';
+import CertificateCard from '@/components/CertificateCard';
+import { Download, Briefcase, GraduationCap, Award, Code, Languages, Heart, Mail, Linkedin, Github, ExternalLink } from 'lucide-react';
 
 const Index = () => {
-  // Activate reveal animations on scroll
   useEffect(() => {
     const handleScroll = () => {
       const reveals = document.querySelectorAll('.reveal');
@@ -35,33 +34,53 @@ const Index = () => {
     <>
       <Header />
       
-      {/* Hero Section */}
-      <section id="home" className="min-h-screen flex flex-col justify-center pt-20">
+      {/* Hero Section with Background Image */}
+      <section 
+        id="home" 
+        className="min-h-screen flex flex-col justify-center pt-20 relative"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(0, 0, 30, 0.7), rgba(0, 0, 30, 0.7)), url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl">
-            <div className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full mb-6 animate-fade-in">
-              <span className="font-medium">Senior Software Programmer</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="max-w-3xl">
+              <div className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full mb-6 animate-fade-in backdrop-blur-sm">
+                <span className="font-medium">Senior Software Programmer</span>
+              </div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in text-white">
+                Hi, I'm <span className="text-primary">John Doe</span> 
+              </h1>
+              <p className="text-xl md:text-2xl text-white/90 mb-8 animate-fade-in delay-100">
+                Creating elegant solutions for complex problems with clean, efficient code.
+              </p>
+              <div className="flex flex-wrap gap-4 animate-fade-in delay-200">
+                <a href="#contact" className="btn-primary">
+                  Let's Talk
+                </a>
+                <a href="/resume.pdf" className="btn-outline border-white/30 text-white hover:bg-white/10" download>
+                  <Download size={16} />
+                  Download Resume
+                </a>
+              </div>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
-              Hi, I'm <span className="text-primary">John Doe</span> 
-            </h1>
-            <p className="text-xl md:text-2xl text-secondary mb-8 animate-fade-in delay-100">
-              Creating elegant solutions for complex problems with clean, efficient code.
-            </p>
-            <div className="flex flex-wrap gap-4 animate-fade-in delay-200">
-              <a href="#contact" className="btn-primary">
-                Let's Talk
-              </a>
-              <a href="/resume.pdf" className="btn-outline" download>
-                <Download size={16} />
-                Download Resume
-              </a>
+            <div className="flex justify-center">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-primary overflow-hidden animate-fade-in">
+                <img 
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" 
+                  alt="John Doe" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
 
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block animate-pulse-slow">
-          <a href="#about" className="flex flex-col items-center text-secondary hover:text-primary transition-colors">
+          <a href="#about" className="flex flex-col items-center text-white/80 hover:text-white transition-colors">
             <span className="text-sm mb-2">Scroll Down</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -249,6 +268,37 @@ const Index = () => {
         />
       </Section>
 
+      {/* Certificate Showcase */}
+      <Section
+        id="certificates"
+        title="Certification Showcase"
+        subtitle="View my professional certifications and achievements."
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <CertificateCard 
+            title="AWS Certified Solutions Architect"
+            organization="Amazon Web Services"
+            date="2022"
+            image="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            certificateUrl="https://example.com/certificate1"
+          />
+          <CertificateCard 
+            title="Full Stack Development Bootcamp"
+            organization="Tech Academy"
+            date="2020"
+            image="https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            certificateUrl="https://example.com/certificate2"
+          />
+          <CertificateCard 
+            title="Machine Learning Specialization"
+            organization="Coursera"
+            date="2019"
+            image="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            certificateUrl="https://example.com/certificate3"
+          />
+        </div>
+      </Section>
+
       {/* Skills Section */}
       <Section
         id="skills"
@@ -323,7 +373,7 @@ const Index = () => {
           <ProjectCard
             title="AI Task Manager"
             description="A productivity application that uses machine learning to prioritize tasks and suggest optimal times for completing work."
-            image="https://images.unsplash.com/photo-1546146477-15a587cd5fcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+            image="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
             tags={["Python", "TensorFlow", "React", "Flask"]}
             demoUrl="#"
             githubUrl="#"

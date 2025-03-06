@@ -92,6 +92,23 @@
   .glass {
     @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-sm;
   }
+  
+  /* Added classes for hero section with background image */
+  .hero-text {
+    @apply text-white drop-shadow-md;
+  }
+  
+  .profile-photo {
+    @apply border-4 border-primary shadow-lg;
+  }
+  
+  .certificate-card {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+  
+  .certificate-overlay {
+    @apply absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center;
+  }
 }
 
 /* Utility animations */
