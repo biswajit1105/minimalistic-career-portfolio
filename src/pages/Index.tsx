@@ -7,7 +7,7 @@ import SkillBar from '@/components/SkillBar';
 import ProjectCard from '@/components/ProjectCard';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
-import { Download, Briefcase, GraduationCap, Award, Code, Languages, Heart } from 'lucide-react';
+import { Download, Briefcase, GraduationCap, Award, Code, Languages, Heart, Mail, Linkedin, Github } from 'lucide-react';
 
 const Index = () => {
   // Activate reveal animations on scroll
@@ -207,7 +207,7 @@ const Index = () => {
               organization: "Tokyo Technical University",
               location: "Tokyo, Japan",
               date: "2019 - 2021",
-              description: "Specialized in Software Engineering and Artificial Intelligence. Thesis on "Optimizing Machine Learning Algorithms for Real-time Applications". GPA: 3.8/4.0",
+              description: "Specialized in Software Engineering and Artificial Intelligence. Thesis on \"Optimizing Machine Learning Algorithms for Real-time Applications\". GPA: 3.8/4.0",
               tags: ["AI/ML", "Algorithms", "Software Engineering"]
             },
             {
