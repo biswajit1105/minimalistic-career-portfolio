@@ -9,12 +9,12 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-accent-foreground">
-              © {new Date().getFullYear()} John Doe. All rights reserved.
+              © {new Date().getFullYear()} Biswajit Mandal. All rights reserved.
             </p>
           </div>
           <div className="flex items-center space-x-5">
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/biswajit1105"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-foreground/70 hover:text-primary transition-colors"
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://www.linkedin.com/in/biswajit-mandal-6659111aa/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-foreground/70 hover:text-primary transition-colors"
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:hello@johndoe.com"
+              href="mailto:biswajitmandal012345@gmail.com"
               className="text-accent-foreground/70 hover:text-primary transition-colors"
               aria-label="Email"
             >

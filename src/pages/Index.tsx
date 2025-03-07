@@ -49,10 +49,10 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="max-w-3xl">
               <div className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full mb-6 animate-fade-in backdrop-blur-sm">
-                <span className="font-medium">Senior Software Programmer</span>
+                <span className="font-medium">Senior Programmer</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in text-white">
-                Hi, I'm <span className="text-primary">John Doe</span> 
+                Hi, I'm <span className="text-primary">Biswajit Mandal</span> 
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-8 animate-fade-in delay-100">
                 Creating elegant solutions for complex problems with clean, efficient code.
@@ -61,7 +61,7 @@ const Index = () => {
                 <a href="#contact" className="btn-primary">
                   Let's Talk
                 </a>
-                <a href="/resume.pdf" className="btn-outline border-white/30 text-white hover:bg-white/10" download>
+                  <a href="/BiswajitMandal-SeniorProgrammer.pdf" className="btn-outline border-white/30 text-white hover:bg-white/10" download>
                   <Download size={16} />
                   Download Resume
                 </a>
@@ -70,8 +70,8 @@ const Index = () => {
             <div className="flex justify-center">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-primary overflow-hidden animate-fade-in">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" 
-                  alt="John Doe" 
+                  src="/ProfilePic.png" 
+                  alt="Biswajit Mandal" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -104,19 +104,19 @@ const Index = () => {
       <Section
         id="about"
         title="About Me"
-        subtitle="I'm a passionate software developer with 2 years of experience at a Japan-based company, focused on building high-quality web applications."
+              subtitle="I'm a Passionate Software Programmer over two years of professional experience in building Web Applications desktop applications"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="reveal">
             <h3 className="text-xl font-semibold mb-4">Who I am</h3>
             <p className="text-muted-foreground mb-4">
-              I'm a senior software programmer with a passion for developing innovative solutions that deliver exceptional user experiences. Currently based in Tokyo, Japan, I specialize in full-stack development with a focus on performance and scalability.
+               I am a Software Programmer with a passion for building efficient and user-friendly applications that solve real-world problems. Currently based in Ahmedabad, India, I specialize in C# .NET development, DevExpress controls, and REST API development, delivering efficient and scalable solutions for diverse business needs.
             </p>
             <p className="text-muted-foreground mb-4">
-              My journey in software development started during my university years, and I've since grown to become a versatile developer comfortable with multiple technologies and frameworks.
+                          My journey into software development started during my B.Tech at BIT Mesra, where I built a strong foundation in programming, algorithms, and problem-solving. After graduating, I joined a Japan-based company, where I gained valuable hands-on experience working on web and desktop applications and collaborating on projects that enhanced both my technical and analytical skills.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying the unique blend of traditional and modern culture that Japan offers.
+               When I am not coding, IÅfm exploring new technologies, learning best practices in software design, or participating in technical discussions that help me grow both technically and creatively.
             </p>
           </div>
           <div className="reveal delay-200">
@@ -124,15 +124,15 @@ const Index = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="font-semibold w-28">Name:</span>
-                <span className="text-muted-foreground">John Doe</span>
+                <span className="text-muted-foreground">Biswajit Mandal</span>
               </li>
               <li className="flex items-start">
                 <span className="font-semibold w-28">Email:</span>
-                <span className="text-muted-foreground">hello@johndoe.com</span>
+                <span className="text-muted-foreground">biswajitmandal012345@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <span className="font-semibold w-28">Location:</span>
-                <span className="text-muted-foreground">Tokyo, Japan</span>
+                <span className="text-muted-foreground">Ahmedabad, India</span>
               </li>
               <li className="flex items-start">
                 <span className="font-semibold w-28">Experience:</span>
@@ -140,7 +140,11 @@ const Index = () => {
               </li>
               <li className="flex items-start">
                 <span className="font-semibold w-28">Languages:</span>
-                <span className="text-muted-foreground">English (Fluent), Japanese (Business Level)</span>
+                <span className="text-muted-foreground">English (Fluent), Hindi (Native), Bengoli (Fluent), Japanese (Basics)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="font-semibold w-28">Organization:</span>
+                <span className="text-muted-foreground">Acty System India Pvt Ltd</span>
               </li>
               <li className="flex items-start">
                 <span className="font-semibold w-28">Availability:</span>
@@ -166,19 +170,19 @@ const Index = () => {
           items={[
             {
               title: "Senior Software Programmer",
-              organization: "Tech Innovate Japan",
-              location: "Tokyo, Japan",
-              date: "Jan 2022 - Present",
-              description: "Lead developer for enterprise-level applications, managing a team of 5 developers. Implemented microservices architecture that improved system performance by 40%. Collaborated with cross-functional teams to deliver projects on schedule.",
-              tags: ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
+              organization: "Acty System India Pvt Ltd",
+              location: "Ahmedabad, India",
+              date: "Feb 2025 - Present",
+              description: "Lead developer for enterprise-level applications, managing a team of 4 developers." ,
+              tags: ["C#.NET Framework", "ASP.NET MVC", "ASP.NET WebAPI", "RESTful APIs", "DevExpress Controls", "SQL Server", "JSON", "XML", "Git Bucket", "Software Testing"]
             },
             {
-              title: "Software Developer",
-              organization: "Global Solutions Inc.",
-              location: "Osaka, Japan",
-              date: "Jun 2021 - Dec 2021",
+              title: "Software Programmer",
+              organization: "Acty System India Pvt Ltd",
+              location: "Ahmedabad, India",
+              date: "Aug 2023 - Feb 2025",
               description: "Developed and maintained web applications for international clients. Implemented responsive design principles and optimized code for performance. Conducted code reviews and mentored junior developers.",
-              tags: ["JavaScript", "TypeScript", "Vue.js", "Express"]
+              tags: ["C#.NET Framework", "ASP.NET MVC", "ASP.NET WebAPI", "RESTful APIs", "DevExpress Controls", "SQL Server", "JSON", "XML", "Git Bucket", "Software Testing"]
             }
           ]}
         />
@@ -190,20 +194,20 @@ const Index = () => {
         <Timeline
           items={[
             {
-              title: "Software Engineering Intern",
-              organization: "StartUp Labs",
-              location: "Remote",
-              date: "Jan 2021 - May 2021",
+              title: "Project Trainee",
+              organization: "Acty System India Pvt Ltd",
+              location: "Ahmedabad, India",
+              date: "Feb 2023 - Jul 2023",
               description: "Contributed to the development of a fintech application. Implemented new features and fixed bugs in existing codebase. Participated in Agile development cycles with daily stand-ups and sprint planning.",
-              tags: ["React", "Redux", "Firebase"]
+              tags: ["C#.NET Framework", "HTML/CSS", "JavaScript", "jQuery", "Bootstrap", "AJAX", "Git Bucket", "Razor/Blazor", "Windows Forms", "RESTful APIs", "SQL Server"]
             },
             {
-              title: "Web Development Intern",
-              organization: "Creative Digital Agency",
-              location: "Virtual Internship",
-              date: "Sep 2020 - Dec 2020",
+              title: "Intern",
+              organization: "Bharat Coking Coal Limited (BCCL)",
+              location: "Dhanbad, Jharkhand",
+              date: "May 2022 - Jun 2022",
               description: "Designed and developed responsive websites for small business clients. Collaborated with designers to implement UI/UX improvements. Created documentation for content management systems.",
-              tags: ["HTML/CSS", "JavaScript", "WordPress"]
+              tags: ["RFID", "Radio Communication", "EPABX(Electronic Private Automatic Branch Exchange)", "Vehicle Tracking System (VTS)", "RFID technology"]
             }
           ]}
         />
@@ -222,20 +226,25 @@ const Index = () => {
         <Timeline
           items={[
             {
-              title: "Master of Science in Computer Science",
-              organization: "Tokyo Technical University",
-              location: "Tokyo, Japan",
-              date: "2019 - 2021",
-              description: "Specialized in Software Engineering and Artificial Intelligence. Thesis on \"Optimizing Machine Learning Algorithms for Real-time Applications\". GPA: 3.8/4.0",
-              tags: ["AI/ML", "Algorithms", "Software Engineering"]
+              title: "Bachelor of Technology in Electronics and Communication with Minors Computer Engineering",
+              organization: "Birla Institute of Technology, Mesra",
+              location: "Ranchi, Jharkhand",
+              date: "2019 - 2023",
+              description: "CGPA: 8.1/10.0",
             },
             {
-              title: "Bachelor of Science in Computer Engineering",
-              organization: "National University",
-              location: "Boston, USA",
-              date: "2015 - 2019",
-              description: "Focus on Computer Architecture and Software Development. Completed capstone project on distributed systems. Graduated with honors.",
-              tags: ["Programming", "Data Structures", "Networking"]
+              title: "Higher Secondary (Class 12)",
+              organization: "Dhanabd public School",
+              location: "Dhanbad, Jharkhand",
+              date: "2018",
+              description: "Percentage: 75.6%",
+            },
+            {
+              title: "Secondary (Class 10)",
+              organization: "Dhanabd public School",
+              location: "Dhanbad, Jharkhand",
+              date: "2018",
+              description: "CGPA: 9.8/10.0",
             }
           ]}
         />
@@ -247,22 +256,34 @@ const Index = () => {
         <Timeline
           items={[
             {
-              title: "AWS Certified Solutions Architect",
-              organization: "Amazon Web Services",
-              date: "2022",
-              description: "Professional certification for designing distributed systems on AWS."
+              title: "AWS For Beginners",
+              organization: "Great learning Academy",
+              date: "2024",
+              tags: ["AWS", "AWS lambda", "AWS Elastic Beanstalk"]
             },
             {
-              title: "Full Stack Development Bootcamp",
-              organization: "Tech Academy",
+              title: "Blockchain Basics",
+              organization: "Great learning Academy",
+              date: "2024",
+              tags: ["Blockchain"]
+            },
+            {
+              title: "Microsoft Excel 2013 Certification",
+              organization: "Great Learning",
+              date: "2024",
+              tags: ["Microsoft Excel"]
+            },
+            {
+              title: "Start-Up Bihar (NPTIS-2020)",
+              organization: "Department of Industries, Government of Bihar",
               date: "2020",
-              description: "Intensive 12-week program covering modern web development technologies and practices."
+              tags: ["Inovation Development", "Presentation Skills"]
             },
             {
-              title: "Machine Learning Specialization",
-              organization: "Coursera",
-              date: "2019",
-              description: "Series of courses covering ML algorithms, deep learning, and practical applications."
+              title: "SIH-2020",
+              organization: "Smart India Hackathon",
+              date: "2020",
+              tags: ["Inovation Development", "Presentation Skills"]
             }
           ]}
         />
@@ -276,25 +297,39 @@ const Index = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <CertificateCard 
-            title="AWS Certified Solutions Architect"
-            organization="Amazon Web Services"
-            date="2022"
-            image="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-            certificateUrl="https://example.com/certificate1"
+            title="AWS For Beginners"
+            organization="Great learning Academy"
+            date="2024"
+            image="\SourceFile\Certificate\AWS.jpg"
+            certificateUrl="https://drive.google.com/file/d/12kx_nKXmM6MVXzDt9fbyUAvy_hnObTPM/view?usp=drive_link"
           />
           <CertificateCard 
-            title="Full Stack Development Bootcamp"
-            organization="Tech Academy"
+            title= "Blockchain Basics"
+            organization= "Great learning Academy"
+            date= "2024"
+            image="\SourceFile\Certificate\Blockchain.jpg"
+            certificateUrl="https://drive.google.com/file/d/1nlIArYVgyDSQLVhDl6i8dhmLta-ap6mc/view?usp=drive_link"
+            />
+          <CertificateCard 
+            title="Microsoft Excel 2013 Certification"
+            organization="Great learning Academy"
+            date="2024"
+            image="\SourceFile\Certificate\Excel.jpg"
+            certificateUrl="https://drive.google.com/file/d/1h5GAgUb6WcE6IHsjgs8REsq_l90wPC4x/view?usp=drive_link"
+          />
+          <CertificateCard 
+            title="Start-Up Bihar (NPTIS-2020)"
+            organization="Department of Industries, Government of Bihar"
             date="2020"
             image="https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
             certificateUrl="https://example.com/certificate2"
           />
           <CertificateCard 
-            title="Machine Learning Specialization"
-            organization="Coursera"
-            date="2019"
-            image="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-            certificateUrl="https://example.com/certificate3"
+            title="SIH-2020"
+            organization="Smart India Hackathon"
+            date="2020"
+            image="\SourceFile\Certificate\BIT_SIH.jpg"
+            certificateUrl="https://drive.google.com/file/d/1ZWv_z3ZYlpAP8ZmM1ZzRAMOwl0bLUyDF/view?usp=drive_link"
           />
         </div>
       </Section>
@@ -309,27 +344,40 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <div className="flex items-center mb-6 reveal">
-              <Code size={20} className="text-primary mr-2" />
-              <h3 className="text-xl font-semibold">Technical Skills</h3>
+              <Languages size={20} className="text-primary mr-2" />
+              <h3 className="text-xl font-semibold">Languages & Frameworks</h3>
+              
             </div>
-            <SkillBar name="JavaScript/TypeScript" percentage={95} delay={100} />
-            <SkillBar name="React.js" percentage={90} delay={200} />
-            <SkillBar name="Node.js" percentage={85} delay={300} />
-            <SkillBar name="HTML5/CSS3" percentage={90} delay={400} />
-            <SkillBar name="Python" percentage={75} delay={500} />
-            <SkillBar name="AWS Cloud" percentage={80} delay={600} />
+            <SkillBar name="C#" percentage={85} delay={100} />
+            <SkillBar name="C++" percentage={80} delay={200} />
+            <SkillBar name="Python" percentage={75} delay={300} />
+            <SkillBar name="ASP.NET MVC" percentage={90} delay={400} />
+            <SkillBar name="ASP.NET WebAPI" percentage={90} delay={500} />
+            <SkillBar name="JavaScript/TypeScript" percentage={95} delay={600} />
+            <SkillBar name="React.js" percentage={90} delay={700} />
+            <SkillBar name="Node.js" percentage={85} delay={800} />
+            <SkillBar name="HTML5/CSS3" percentage={90} delay={900} />
+            <SkillBar name="Bootstrap" percentage={80} delay={1000} />
+            <SkillBar name="AJAX" percentage={80} delay={1100} />
+            <SkillBar name="JQuery" percentage={80} delay={1200} />
           </div>
           <div>
             <div className="flex items-center mb-6 reveal">
-              <Languages size={20} className="text-primary mr-2" />
-              <h3 className="text-xl font-semibold">Languages & Frameworks</h3>
+             <Code size={20} className="text-primary mr-2" />
+              <h3 className="text-xl font-semibold">Technical Skills</h3>
             </div>
-            <SkillBar name="Vue.js" percentage={85} delay={100} />
-            <SkillBar name="Express.js" percentage={80} delay={200} />
-            <SkillBar name="PostgreSQL" percentage={75} delay={300} />
-            <SkillBar name="MongoDB" percentage={70} delay={400} />
-            <SkillBar name="Docker/Kubernetes" percentage={65} delay={500} />
-            <SkillBar name="GraphQL" percentage={60} delay={600} />
+            <SkillBar name="DevExpress" percentage={90} delay={100} />
+            <SkillBar name="RESTful APIs" percentage={90} delay={200} />
+            <SkillBar name="SQL Server" percentage={80} delay={300} />
+            <SkillBar name="Windows Forms" percentage={80} delay={400} />
+            <SkillBar name="Software Testing" percentage={80} delay={500} />
+            <SkillBar name="IIS" percentage={80} delay={600} />
+            <SkillBar name="Microsoft Excel" percentage={80} delay={700} />
+            <SkillBar name="AWS Cloud" percentage={80} delay={800} />
+            <SkillBar name="Tortoise SVN" percentage={80} delay={900} />
+            <SkillBar name="Git Bucket" percentage={80} delay={1000} />
+            <SkillBar name="Object-Oriented Programming (OOP)" percentage={80} delay={1100} />
+            <SkillBar name="Data Structure" percentage={80} delay={1200} />
           </div>
         </div>
         
@@ -340,16 +388,28 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="card reveal">
-              <h4 className="text-lg font-semibold mb-2">Hackathon Winner</h4>
-              <p className="text-muted-foreground">1st place at Tokyo Tech Hackathon 2022 for developing an innovative accessibility solution for visually impaired users.</p>
+              <h4 className="text-lg font-semibold mb-2">Smart India Hackathon Winner</h4>
+              <p className="text-muted-foreground">Secured 4th Position in a national-level hackathon by solving real-world problems with innovative solutions.</p>
             </div>
             <div className="card reveal delay-100">
-              <h4 className="text-lg font-semibold mb-2">Open Source Contributor</h4>
-              <p className="text-muted-foreground">Active contributor to several open-source projects, including React libraries and developer tools.</p>
+              <h4 className="text-lg font-semibold mb-2">Treasurer and Steering Department Head</h4>
+              <p className="text-muted-foreground">Managed team finances and collaborated with the steering department in a student-led motorsports Team Ashwa Racing.</p>
             </div>
             <div className="card reveal delay-200">
-              <h4 className="text-lg font-semibold mb-2">Tech Community Mentor</h4>
-              <p className="text-muted-foreground">Volunteer mentor for coding bootcamp graduates, helping new developers transition into professional roles.</p>
+              <h4 className="text-lg font-semibold mb-2">NPTIS-2020</h4>
+              <p className="text-muted-foreground">Participated in Bihar Start-Up 2020 and presented the project "Smart Emergency Care," receiving a Certificate of Recognition for innovative ideas.</p>
+            </div>
+            <div className="card reveal delay-200">
+              <h4 className="text-lg font-semibold mb-2">National Cadet Corps - India</h4>
+              <p className="text-muted-foreground">Awarded NCC 'A' Certificate by National Cadet Corps (NCC), India in January 2015 (Credential ID: B&J/JB/43819/13).</p>
+            </div>
+            <div className="card reveal delay-200">
+              <h4 className="text-lg font-semibold mb-2">NCC Training Camp</h4>
+              <p className="text-muted-foreground">Successfully completed Annual Training Camp under National Cadet Corps (NCC), India, in January 2015 (Credential ID: B&J/JD/43819/13).</p>
+            </div>
+            <div className="card reveal delay-200">
+              <h4 className="text-lg font-semibold mb-2">District Wushu Championship Winner</h4>
+              <p className="text-muted-foreground">Won the District Wushu Championship, organized by District Administration, Dhanbad in November 2012.</p>
             </div>
           </div>
         </div>
@@ -433,8 +493,8 @@ const Index = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <a href="mailto:hello@johndoe.com" className="text-primary hover:underline">
-                    hello@johndoe.com
+                     <a href="mailto:biswajitmandal012345@gmail.com" className="text-primary hover:underline">
+                     biswajitmandal012345@gmail.com
                   </a>
                 </div>
               </div>
@@ -445,12 +505,12 @@ const Index = () => {
                 <div>
                   <h4 className="font-medium">LinkedIn</h4>
                   <a 
-                    href="https://linkedin.com/in/johndoe"
+                    href="https://www.linkedin.com/in/biswajit-mandal-6659111aa/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    linkedin.com/in/johndoe
+                    linkedin.com/biswajit-mandal
                   </a>
                 </div>
               </div>
@@ -461,12 +521,12 @@ const Index = () => {
                 <div>
                   <h4 className="font-medium">GitHub</h4>
                   <a 
-                    href="https://github.com/johndoe"
+                    href="https://github.com/biswajit1105"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    github.com/johndoe
+                    github.com/biswajit1105
                   </a>
                 </div>
               </div>

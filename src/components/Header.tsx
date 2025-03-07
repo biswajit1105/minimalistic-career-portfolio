@@ -61,7 +61,7 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-foreground animate-fade-in">
-          John <span className="text-primary">Doe</span>
+          Biswajit <span className="text-primary">Mandal</span>
         </a>
 
         {/* Desktop Navigation */}
