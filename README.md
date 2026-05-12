@@ -6,7 +6,7 @@ This project showcases my skills, projects, experience, and achievements as a So
 ## 🌐 Live Portfolio
 
 Visit my portfolio here:
-[Portfolio Website]()
+[Portfolio Website]
 
 ---
 
@@ -91,8 +91,8 @@ This portfolio can be deployed easily using platforms like:
 
 Feel free to connect with me for opportunities, collaborations, or discussions.
 
-* GitHub: 
-* LinkedIn: 
+* GitHub: https://github.com/biswajit1105
+* LinkedIn: https://linkedin.com/in/biswajit-mandal-6659111aa
 * Email: biswajitmandal012345@gmail.com
 
 ---
